@@ -1,0 +1,142 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+    text-align: center;
+}
+.top-container{
+    background-color:#EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: #11999E;
+}
+a:hover{
+    color:peru;
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 400%;
+    font-weight: bolder;
+    margin: 50px auto;
+    padding: 50px;
+}
+h2{
+    color: #66BFBF;
+    margin:30px auto;
+    font-weight:bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color:#11999E;
+    margin: 10px auto;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color:#40514E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    margin:auto;
+    line-height: 2;
+}
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.middle-container{
+    margin-top: 100px;
+}
+.yingkun{
+    width: 200px;
+}
+.skill-row{
+    width: 70%;
+    margin: 0 auto 100px;
+    text-align: left;
+}
+.skill-pic1{
+    width: 200px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.skill-pic2{
+    border-radius: 10%;
+    width: 200px;
+    float: right;
+    margin: 0 0 0 20px;
+}
+.content{
+    width: 100%;
+    line-height: 2;
+}
+.content1{
+    width:80%;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px 40px 20px;
+    margin: 30px auto 0;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px auto;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 0;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    color:#eaf6F6;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+hr{
+    border: dotted #eaf6F6 6px;
+    border-bottom: none;
+    width:5%;
+    margin: 100px auto;
+}
+.copyright{
+    color:#eaf6F6;
+    font-size: 0.75em;
+    margin: 20px auto;
+}
+.footer-link{
+    margin: 10px;
+}
+.footer-link:hover{
+    color:#eaf6F6;
+}
